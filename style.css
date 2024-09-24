@@ -1,0 +1,32 @@
+.coach {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .booked {
+    background-color: red;  /* Booked seats will be red */
+  }
+  
+  .available {
+    background-color: green;  /* Available seats will be green */
+  }
+  
+  input, button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
